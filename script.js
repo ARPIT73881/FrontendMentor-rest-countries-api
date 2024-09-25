@@ -23,7 +23,7 @@ function renderCountries(data) {
   data.forEach((country) => {
     const countryCard = document.createElement("a");
     countryCard.classList.add("country-card");
-    countryCard.href = `https://arpit73881.github.io/country.html?name=${country.name.common}`;
+    countryCard.href = `https://arpit73881.github.io/FrontendMentor-rest-countries-api/country.html?name=${country.name.common}`;
     countryCard.innerHTML = `
           <img src="${country.flags.svg}" alt="${country.name.common} flag" />
           <div class="card-text">
